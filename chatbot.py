@@ -21,7 +21,7 @@ nltk.download('vader_lexicon')
 sia = SentimentIntensityAnalyzer()
 
 # 3. Load clean dataset from GitHub Gist
-url = "https://raw.githubusercontent.com/ksaikishore09/modifieddataset/refs/heads/main/enhanced_chatbot_dataset_with_sentiment.csv"
+url = "https://raw.githubusercontent.com/Vamsi4823/ai-chatbot/refs/heads/main/enhanced_chatbot_dataset_with_sentiment.csv"
 qa_df = pd.read_csv(url)
 
 # 4. Optional cleaning function (currently empty, but kept for extensibility)
