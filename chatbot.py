@@ -79,3 +79,4 @@ if __name__ == "__main__":
         response, sentiment_label, score = get_bot_response(msg)
         print(f"Bot: {response}")
         print(f"Sentiment: {sentiment_label} (score={score})\n")
+
